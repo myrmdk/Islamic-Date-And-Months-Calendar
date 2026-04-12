@@ -1,16 +1,16 @@
 {
   "months": [
     {
-      "gregorian_start": "7777-07-77",
-      "hijri_day": 7,
-      "hijri_month": 77,
-      "hijri_year": 7777
+      "gregorian_start": "2026-09-9",
+      "hijri_day": 6,
+      "hijri_month": 6,
+      "hijri_year": 1430
     },
     {
-      "gregorian_start": "77-07-77",
+      "gregorian_start": "2026-10-19",
       "hijri_day": 1,
-      "hijri_month": 77,
-      "hijri_year": 777
+      "hijri_month": 7,
+      "hijri_year": 1431
     }
   ]
 }
