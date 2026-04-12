@@ -1,0 +1,16 @@
+{
+  "months": [
+    {
+      "gregorian_start": "7777-07-77",
+      "hijri_day": 7,
+      "hijri_month": 77,
+      "hijri_year": 7777
+    },
+    {
+      "gregorian_start": "77-07-77",
+      "hijri_day": 1,
+      "hijri_month": 77,
+      "hijri_year": 777
+    }
+  ]
+}
