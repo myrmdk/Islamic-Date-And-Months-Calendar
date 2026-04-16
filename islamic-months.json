@@ -26,28 +26,28 @@
 const hijriMonthConfig = {
   months: [
     {
-      // 1 Ramadan 1447
+      // Ramadan
       gregorian_start: "2026-02-19",
       hijri_day: 1,
       hijri_month: 9,
       hijri_month_name: "Ramadan",
-      hijri_year: 1447
+      hijri_year: 1425
     },
     {
-      // 1 Shawwal 1447
+      // Shawwal
       gregorian_start: "2026-03-20",
       hijri_day: 1,
       hijri_month: 10,
       hijri_month_name: "Shawwal",
-      hijri_year: 1447
+      hijri_year: 1425
     },
     {
-    // 1 Dhul Qada 1447
+    // Dhul Qada
     gregorian_start: "2026-04-19",
     hijri_day: 1,
     hijri_month: 11,
     hijri_month_name: "Dhul Qada",
-    hijri_year: 1447
+    hijri_year: 1425
     }
 
     // Next month add karne ki misaal:
