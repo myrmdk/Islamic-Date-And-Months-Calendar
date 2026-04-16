@@ -1,6 +1,36 @@
+/*
+  HIJRI DATE CONFIG
+  - Ye object current Hijri month ke start day ke liye hai.
+  - Random daily date yahan nahi deni.
+  - Agar koi naya Hijri month start ho jaye, to isi object ko update karein.
+  - Misal:
+    Agar next Islamic month, masalan Ramadan, 2026-04-19 se start ho,
+    to gregorian_start ko "2026-04-19" kar dein,
+    hijri_day me 1 likhein,
+    aur hijri_month me us month ka number likhein.
+  - hijri_day me hamesha 1 hi rahega,
+    kyun ke yahan sirf Islamic month ki pehli date save hoti hai.
+*/
+
+/* Hijri month numbers
+  1  = Muharram
+  2  = Safar
+  3  = Rabi al-Awwal
+  4  = Rabi al-Thani
+  5  = Jumada al-Awwal
+  6  = Jumada al-Thani
+  7  = Rajab
+  8  = Sha'ban
+  9  = Ramadan
+  10 = Shawwal
+  11 = Dhul-Qadah
+  12 = Dhul-Hijjah
+*/
+
 {
-  "gregorian_start": "2026-04-05",
+// 1 Shawwal Qada 1447
+  "gregorian_start": "2026-03-20",
   "hijri_day": 1,
-  "hijri_month": 9,
+  "hijri_month": 10,
   "hijri_year": 1447
 }
