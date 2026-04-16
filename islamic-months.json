@@ -1,22 +1,64 @@
-{
-  "months": [
+/*
+  HIJRI DATE CONFIG
+  - months: Hijri months ke Gregorian start dates
+  - hijri_month: month number
+  - Update rule:
+    Agar Ramadan 19 March se start ho to Ramadan entry ki
+    gregorian_start ko "2026-03-19" kar dein.
+  - Next month add karte waqt pichlay object ke closing brace `}` ke baad comma `,` lagana na bhoolen.
+*/
+
+/* Hijri month numbers
+  1  = Muharram
+  2  = Safar
+  3  = Rabi al-Awwal
+  4  = Rabi al-Thani
+  5  = Jumada al-Awwal
+  6  = Jumada al-Thani
+  7  = Rajab
+  8  = Sha'ban
+  9  = Ramadan
+  10 = Shawwal
+  11 = Dhul-Qadah
+  12 = Dhul-Hijjah
+*/
+
+const hijriMonthConfig = {
+  months: [
     {
-      "gregorian_start": "2026-02-19",
-      "hijri_day": 1,
-      "hijri_month": 9,
-      "hijri_year": 1425
+      // 1 Ramadan 1447
+      gregorian_start: "2026-02-19",
+      hijri_day: 1,
+      hijri_month: 9,
+      hijri_month_name: "Ramadan",
+      hijri_year: 1447
     },
     {
-      "gregorian_start": "2026-03-21",
-      "hijri_day": 1,
-      "hijri_month": 10,
-      "hijri_year": 1425
+      // 1 Shawwal 1447
+      gregorian_start: "2026-03-20",
+      hijri_day: 1,
+      hijri_month: 10,
+      hijri_month_name: "Shawwal",
+      hijri_year: 1447
     },
     {
-    "gregorian_start": "2026-04-20",
-    "hijri_day": 1,
-    "hijri_month": 11,
-    "hijri_year": 1425
+    // 1 Dhul Qada 1447
+    gregorian_start: "2026-04-19",
+    hijri_day: 1,
+    hijri_month: 11,
+    hijri_month_name: "Dhul Qada",
+    hijri_year: 1447
     }
+
+    // Next month add karne ki misaal:
+    // pichlay object ke } ke baad comma , lagay ga
+    // ,
+    // {
+    //   gregorian_start: "2026-04-19",
+    //   hijri_day: 1,
+    //   hijri_month: 11,
+    //   hijri_month_name: "Dhul-Qadah",
+    //   hijri_year: 1447
+    // }
   ]
-}
+};
