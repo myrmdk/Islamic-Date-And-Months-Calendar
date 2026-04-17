@@ -5,21 +5,21 @@
       "hijri_day": 1,
       "hijri_month": 9,
       "hijri_month_name": "Ramadan",
-      "hijri_year": 1427
+      "hijri_year": 1430
     },
     {
       "gregorian_start": "2026-03-20",
       "hijri_day": 1,
       "hijri_month": 10,
       "hijri_month_name": "Shawwal",
-      "hijri_year": 1427
+      "hijri_year": 1430
     },
     {
       "gregorian_start": "2026-04-19",
       "hijri_day": 1,
       "hijri_month": 11,
       "hijri_month_name": "Dhul Qadah",
-      "hijri_year": 1427
+      "hijri_year": 1430
     }
   ]
 }
