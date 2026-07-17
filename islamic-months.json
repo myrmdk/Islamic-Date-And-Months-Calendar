@@ -1,13 +1,5 @@
 {
-  "months": [
-    {
-      "gregorian_start": "2026-05-18",
-      "hijri_day": 1,
-      "hijri_month": 12,
-      "hijri_month_name": "Dhul Hija",
-      "hijri_year": 1447
-    },
-    {
+"months": [
     "gregorian_start": "2026-06-17",
     "hijri_day": 1,
     "hijri_month": 1,
@@ -20,6 +12,13 @@
     "hijri_month": 2,
     "hijri_month_name": "Safar",
     "hijri_year": 1448
-    }
+    },
+    {
+      "gregorian_start": "2026-07-16",
+      "hijri_day": 1,
+      "hijri_month": 3,
+      "hijri_month_name": "Safar",
+      "hijri_year": 1448
+    },
   ]
 }
