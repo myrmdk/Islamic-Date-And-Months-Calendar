@@ -1,13 +1,6 @@
 {
 "months": [
     {
-    "gregorian_start": "2026-07-15",
-    "hijri_day": 1,
-    "hijri_month": 2,
-    "hijri_month_name": "Safar",
-    "hijri_year": 1448
-    },
-    {
       "gregorian_start": "2026-08-15",
       "hijri_day": 1,
       "hijri_month": 3,
@@ -15,10 +8,17 @@
       "hijri_year": 1448
     },
     {
-    "gregorian_start": "2026-09-13",
+    "gregorian_start": "2026-09-12",
     "hijri_day": 1,
     "hijri_month": 4,
     "hijri_month_name": "Rabi us Sani",
+    "hijri_year": 1448
+    },
+    {
+    "gregorian_start": "2026-10-13",
+    "hijri_day": 1,
+    "hijri_month": 5,
+    "hijri_month_name": "Jamdi ul Awwal",
     "hijri_year": 1448
     }
   ]
